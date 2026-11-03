@@ -1,4 +1,4 @@
-rehearsal-a=1.0.1001
+rehearsal-a=1.0.1012
 rehearsal-b=1.0.1001
 rehearsal-c=1.0.1001
 rehearsal-input=1.0.1001
