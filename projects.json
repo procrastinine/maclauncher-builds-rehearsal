@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "repository": "procrastinine/maclauncher-builds-rehearsal",
+  "updatePolicy": "manual",
+  "registries": {
+    "bundled": "projects/bundled.json",
+    "downloadable": "projects/downloadable.json"
+  }
+}

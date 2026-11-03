@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "javaConverter": {
+    "project": "android-java-converter"
+  },
+  "javaFramework": {
+    "project": "android-java-framework"
+  },
+  "angle": {
+    "project": "android-angle"
+  },
+  "artElf": {
+    "project": "android-art-elf"
+  },
+  "aconfig": {
+    "project": "android-aconfig"
+  },
+  "blueprint": {
+    "project": "android-blueprint-parser"
+  },
+  "codecs": {
+    "project": "android-codecs"
+  },
+  "extractor": {
+    "project": "android-art-image-extractor"
+  },
+  "ffi": {
+    "project": "android-art-ffi"
+  },
+  "image1": {
+    "project": "android-image-data-1"
+  },
+  "image2": {
+    "project": "android-image-data-2"
+  },
+  "image3": {
+    "project": "android-image-data-3"
+  },
+  "image4": {
+    "project": "android-image-data-4"
+  },
+  "image5": {
+    "project": "android-image-data-5"
+  },
+  "artJava": {
+    "project": "android-art-java"
+  }
+}

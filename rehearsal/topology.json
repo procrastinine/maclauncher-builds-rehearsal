@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "repository": "procrastinine/maclauncher-builds-rehearsal",
+  "mode": "compact-approved",
+  "initialFailureProject": "rehearsal-missing",
+  "recoveryComponent": "component-01",
+  "components": [
+    {
+      "id": "component-01",
+      "projects": [
+        {
+          "id": "rehearsal-a",
+          "inputs": [],
+          "level": 0,
+          "profiles": [
+            {
+              "version": "1.0.0",
+              "architectures": [
+                "x64"
+              ]
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "0": 1
+      },
+      "selection": [
+        {
+          "id": "rehearsal-a",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "component-02",
+      "projects": [
+        {
+          "id": "rehearsal-b",
+          "inputs": [],
+          "level": 0,
+          "profiles": [
+            {
+              "version": "1.0.0",
+              "architectures": [
+                "x64"
+              ]
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "0": 1
+      },
+      "selection": [
+        {
+          "id": "rehearsal-b",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "component-03",
+      "projects": [
+        {
+          "id": "rehearsal-c",
+          "inputs": [],
+          "level": 0,
+          "profiles": [
+            {
+              "version": "1.0.0",
+              "architectures": [
+                "x64"
+              ]
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "0": 1
+      },
+      "selection": [
+        {
+          "id": "rehearsal-c",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "component-04",
+      "projects": [
+        {
+          "id": "rehearsal-input",
+          "inputs": [],
+          "level": 0,
+          "profiles": [
+            {
+              "version": "1.0.0",
+              "architectures": [
+                "x64"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rehearsal-consumer",
+          "inputs": [
+            "rehearsal-input"
+          ],
+          "level": 1,
+          "profiles": [
+            {
+              "version": "1.0.0",
+              "architectures": [
+                "x64"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rehearsal-missing",
+          "inputs": [
+            "rehearsal-input"
+          ],
+          "level": 1,
+          "profiles": [
+            {
+              "version": "1.0.0",
+              "architectures": [
+                "x64"
+              ]
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "0": 1,
+        "1": 2
+      },
+      "selection": [
+        {
+          "id": "rehearsal-input",
+          "version": "1.0.0"
+        },
+        {
+          "id": "rehearsal-consumer",
+          "version": "1.0.0"
+        },
+        {
+          "id": "rehearsal-missing",
+          "version": "1.0.0"
+        }
+      ]
+    }
+  ],
+  "initialBlockedPublisherProject": "rehearsal-input"
+}

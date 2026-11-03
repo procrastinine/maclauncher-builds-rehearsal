@@ -1,0 +1,252 @@
+[
+  {
+    "id": "rehearsal-b",
+    "name": "rehearsal-b",
+    "purpose": "Deterministic publication rehearsal fixture.",
+    "producer": {
+      "kind": "maclauncher",
+      "repository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceRepository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceDirectory": "rehearsal",
+      "entries": [
+        "rehearsal/build.mjs",
+        "rehearsal/topology.json",
+        "rehearsal/config.json",
+        "rehearsal/LICENSE"
+      ]
+    },
+    "upstreams": [],
+    "packageProfiles": [
+      {
+        "version": "1.0.1001",
+        "label": "rehearsal-b 1.0.1001"
+      },
+      {
+        "version": "1.0.1012",
+        "label": "rehearsal-b 1.0.1012"
+      }
+    ],
+    "build": [
+      {
+        "version": "1.0.1001",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      },
+      {
+        "version": "1.0.1012",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      }
+    ]
+  },
+  {
+    "id": "rehearsal-c",
+    "name": "rehearsal-c",
+    "purpose": "Deterministic publication rehearsal fixture.",
+    "producer": {
+      "kind": "maclauncher",
+      "repository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceRepository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceDirectory": "rehearsal",
+      "entries": [
+        "rehearsal/build.mjs",
+        "rehearsal/topology.json",
+        "rehearsal/config.json",
+        "rehearsal/LICENSE"
+      ]
+    },
+    "upstreams": [],
+    "packageProfiles": [
+      {
+        "version": "1.0.1001",
+        "label": "rehearsal-c 1.0.1001"
+      },
+      {
+        "version": "1.0.1012",
+        "label": "rehearsal-c 1.0.1012"
+      }
+    ],
+    "build": [
+      {
+        "version": "1.0.1001",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      },
+      {
+        "version": "1.0.1012",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      }
+    ]
+  },
+  {
+    "id": "rehearsal-input",
+    "name": "rehearsal-input",
+    "purpose": "Deterministic publication rehearsal fixture.",
+    "producer": {
+      "kind": "maclauncher",
+      "repository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceRepository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceDirectory": "rehearsal",
+      "entries": [
+        "rehearsal/build.mjs",
+        "rehearsal/topology.json",
+        "rehearsal/config.json",
+        "rehearsal/LICENSE"
+      ]
+    },
+    "upstreams": [],
+    "packageProfiles": [
+      {
+        "version": "1.0.1001",
+        "label": "rehearsal-input 1.0.1001"
+      },
+      {
+        "version": "1.0.1012",
+        "label": "rehearsal-input 1.0.1012"
+      }
+    ],
+    "build": [
+      {
+        "version": "1.0.1001",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      },
+      {
+        "version": "1.0.1012",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      }
+    ]
+  },
+  {
+    "id": "rehearsal-consumer",
+    "name": "rehearsal-consumer",
+    "purpose": "Deterministic publication rehearsal fixture.",
+    "producer": {
+      "kind": "maclauncher",
+      "repository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceRepository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceDirectory": "rehearsal",
+      "entries": [
+        "rehearsal/build.mjs",
+        "rehearsal/topology.json",
+        "rehearsal/config.json",
+        "rehearsal/LICENSE"
+      ]
+    },
+    "upstreams": [],
+    "packageProfiles": [
+      {
+        "version": "1.0.1001",
+        "label": "rehearsal-consumer 1.0.1001"
+      },
+      {
+        "version": "1.0.1012",
+        "label": "rehearsal-consumer 1.0.1012"
+      }
+    ],
+    "build": [
+      {
+        "version": "1.0.1001",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      },
+      {
+        "version": "1.0.1012",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      }
+    ]
+  },
+  {
+    "id": "rehearsal-missing",
+    "name": "rehearsal-missing",
+    "purpose": "Deterministic publication rehearsal fixture.",
+    "producer": {
+      "kind": "maclauncher",
+      "repository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceRepository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceDirectory": "rehearsal",
+      "entries": [
+        "rehearsal/build.mjs",
+        "rehearsal/topology.json",
+        "rehearsal/config.json",
+        "rehearsal/LICENSE"
+      ]
+    },
+    "upstreams": [],
+    "packageProfiles": [
+      {
+        "version": "1.0.1001",
+        "label": "rehearsal-missing 1.0.1001"
+      },
+      {
+        "version": "1.0.1012",
+        "label": "rehearsal-missing 1.0.1012"
+      }
+    ],
+    "build": [
+      {
+        "version": "1.0.1001",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      },
+      {
+        "version": "1.0.1012",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      }
+    ]
+  }
+]

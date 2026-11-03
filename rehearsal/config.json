@@ -1,0 +1,6 @@
+{
+  "delaySeconds": 0,
+  "failBuildProjects": [
+    "rehearsal-missing"
+  ]
+}

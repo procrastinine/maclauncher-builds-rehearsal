@@ -1,0 +1,52 @@
+[
+  {
+    "id": "rehearsal-a",
+    "name": "rehearsal-a",
+    "purpose": "Deterministic publication rehearsal fixture.",
+    "producer": {
+      "kind": "maclauncher",
+      "repository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceRepository": "https://github.com/procrastinine/maclauncher-builds-rehearsal",
+      "sourceDirectory": "rehearsal",
+      "entries": [
+        "rehearsal/build.mjs",
+        "rehearsal/topology.json",
+        "rehearsal/config.json",
+        "rehearsal/LICENSE"
+      ]
+    },
+    "upstreams": [],
+    "packageProfiles": [
+      {
+        "version": "1.0.1001",
+        "label": "rehearsal-a 1.0.1001"
+      },
+      {
+        "version": "1.0.1012",
+        "label": "rehearsal-a 1.0.1012"
+      }
+    ],
+    "build": [
+      {
+        "version": "1.0.1001",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      },
+      {
+        "version": "1.0.1012",
+        "architectures": [
+          "x64"
+        ],
+        "command": "rehearsal/build.mjs",
+        "runners": {
+          "x64": "ubuntu-24.04"
+        }
+      }
+    ]
+  }
+]
