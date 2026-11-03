@@ -4,6 +4,46 @@
   "updatePolicy": "manual",
   "projects": [
     {
+      "projectId": "rehearsal-a",
+      "name": "rehearsal-a",
+      "delivery": "bundled",
+      "pageUrl": "https://procrastinine.github.io/maclauncher-builds-rehearsal/#rehearsal-a",
+      "catalog": {
+        "url": "https://procrastinine.github.io/maclauncher-builds-rehearsal/catalogs/rehearsal-a.json",
+        "sha256": "475db5aa08010c4fd3b97e1c069466e735cc06276cc28b628b81af64c445a496",
+        "bytes": 1470
+      },
+      "releases": [
+        {
+          "version": "1.0.1001",
+          "arch": "x64",
+          "launcherArchitectures": [
+            "x64"
+          ],
+          "minimumMacOS": "13.0",
+          "tag": "rehearsal-a/v1.0.1001/x64",
+          "asset": {
+            "filename": "rehearsal-a-1.0.1001-x64.tar.gz",
+            "sha256": "69bc1a77255807ce2f21236b8f74573a6a4184132400c0235e6cb32d457240be",
+            "bytes": 7527,
+            "url": "https://github.com/procrastinine/maclauncher-builds-rehearsal/releases/download/rehearsal-a%2Fv1.0.1001%2Fx64/rehearsal-a-1.0.1001-x64.tar.gz"
+          },
+          "build": {
+            "sourceRevision": "4d67bc0409c82a5ef8d1bb8f682faa4a1f3f74c3",
+            "workflow": "procrastinine/maclauncher-builds-rehearsal/.github/workflows/runtime-build.yml",
+            "toolchain": {
+              "node": "24.22.1",
+              "zlib": "1.3.2.1-motley-285e94b"
+            },
+            "runId": "41577258019",
+            "runAttempt": "1"
+          },
+          "pageUrl": "https://procrastinine.github.io/maclauncher-builds-rehearsal/#rehearsal-a",
+          "profile": "rehearsal-a 1.0.1001"
+        }
+      ]
+    },
+    {
       "projectId": "rehearsal-b",
       "name": "rehearsal-b",
       "delivery": "downloadable",
