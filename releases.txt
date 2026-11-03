@@ -1,0 +1,6 @@
+rehearsal-a=1.0.1001
+rehearsal-b=1.0.1001
+rehearsal-c=1.0.1001
+rehearsal-input=1.0.1001
+rehearsal-consumer=1.0.1001
+rehearsal-missing=1.0.1001
