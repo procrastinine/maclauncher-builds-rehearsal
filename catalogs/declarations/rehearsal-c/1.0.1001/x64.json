@@ -1,0 +1,53 @@
+{
+  "id": "rehearsal-c",
+  "version": "1.0.1001",
+  "arch": "x64",
+  "minimumMacOS": "13.0",
+  "launcherArchitectures": [
+    "x64"
+  ],
+  "sourceRelative": null,
+  "sourceSha256": "e01543c3bc66b44677fa6569e54a9c4185e68ca68ce553a482861f39e584e004",
+  "directoryRelative": "rehearsal-c/1.0.1001/x64",
+  "manifestRelative": "helper.json",
+  "manifestSha256": "b259fdf9d3cf59666351e39af29a0d2862685fe50ee6894a139e42f56ead1dce",
+  "files": [
+    {
+      "path": "build-definition.json",
+      "size": 15974,
+      "mode": 420,
+      "sha256": "81e78dc4db9e00cb171304f84581b3efc16a5189ead1e3c5570eb56a51719d5a"
+    },
+    {
+      "path": "build-inputs.json",
+      "size": 117,
+      "mode": 420,
+      "sha256": "e463762ac317ed3f16fb93275d9e4078c09617c609039014e1349ee582846f15"
+    },
+    {
+      "path": "dummy.txt",
+      "size": 72,
+      "sha256": "9544febbdd2a2d3d9f08916b91b44f576c2931f19cdd587e60e586a540680733",
+      "mode": 420
+    },
+    {
+      "path": "helper.json",
+      "size": 770,
+      "sha256": "b259fdf9d3cf59666351e39af29a0d2862685fe50ee6894a139e42f56ead1dce",
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 1081,
+      "sha256": "cd6baee943e564e7f405204fd5ade2c995b45ff6dfe6f7609c020b07509a17f7",
+      "mode": 420
+    }
+  ],
+  "notices": [
+    {
+      "name": "MacLauncher Builds source license",
+      "license": "See included LICENSE",
+      "path": "LICENSE"
+    }
+  ]
+}
